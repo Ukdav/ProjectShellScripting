@@ -44,11 +44,11 @@ It empowers you to harness the full potential of the command line and make your 
 
 #!/bin/bash
 
-# Prompt the user for their name
+#Prompt the user for their name
 echo "Enter your name:"
 read name
 
-# Display a greeting with the entered name
+#Display a greeting with the entered name
 echo "Hello, $name! Nice to meet you."
 
 A little summary about the code block, the script will prompt for your name. when you input your name, it displays the text *hello! nice to meet you*
