@@ -82,46 +82,50 @@ sample code:
 
 #!/bin/bash
 
-# Display current directory
+#Display current directory
 echo "Current directory: $PWD"
 
-# Create a new directory
+#Create a new directory
 echo "Creating a new directory..."
 mkdir my_directory
 echo "New directory created."
 
-# Change to the new directory
+#Change to the new directory
 echo "Changing to the new directory..."
 cd my_directory
 echo "Current directory: $PWD"
 
-# Create some files
+#Create some files
 echo "Creating files..."
 touch file1.txt
 touch file2.txt
 echo "Files created."
 
-# List the files in the current directory
+#List the files in the current directory
 echo "Files in the current directory:"
 ls
 
-# Move one level up
+#Move one level up
 echo "Moving one level up..."
 cd ..
 echo "Current directory: $PWD"
 
-# Remove the new directory and its contents
+#Remove the new directory and its contents
 echo "Removing the new directory..."
 rm -rf my_directory
 echo "Directory removed."
 
-# List the files in the current directory again
+#List the files in the current directory again
 echo "Files in the current directory:"
 ls
 
 ![navigate file](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/eaaf1e1b-1471-4896-8e59-60951721b858)
 
 ![nano02](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/95578cc2-5c95-481d-9c91-5701ff76a8c0)
+
+# File Operations and Sorting in Shell Scripting
+
+File operations and sorting are common tasks in shell scripting on Linux. Shell scripts allow you to manipulate files and sort their content, enabling you to automate data processing, report generation, and more. Here's an overview of file operations and sorting techniques in shell scripting:
 
 
 
