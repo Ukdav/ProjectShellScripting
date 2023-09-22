@@ -35,9 +35,12 @@ It empowers you to harness the full potential of the command line and make your 
 
 **Step 1:** On our terminal, open a folder called shell-scripting using the command *mkdir shell-scripting*. This will hold all the scripting we would write in this lesson.
 
+
 **Step 2:** Create a file called user-input.sh using the command *touch user-input.sh*
 
+
 **Step 3:** Inside copy and paste the block of code below: 
+
 
 #!/bin/bash
 
