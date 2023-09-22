@@ -125,7 +125,55 @@ ls
 
 # File Operations and Sorting in Shell Scripting
 
-File operations and sorting are common tasks in shell scripting on Linux. Shell scripts allow you to manipulate files and sort their content, enabling you to automate data processing, report generation, and more. Here's an overview of file operations and sorting techniques in shell scripting:
+File operations and sorting are everyday tasks in shell scripting on Linux. Shell scripts allow you to manipulate files and sort their content, enabling you to automate data processing, report generation, and more. Here's an overview of file operations and sorting techniques in shell scripting:
+
+in this lesson, we will write a simple shell scripting that focuses on file operations and sorting. This script will create three files (file1.txt, file2.txt. file2.txt). displays the files in their current order, sorting them Alphabetically, saves the sorted files in the sorted_file.txt, and displays the sorted files. remove the original files, rename the sorted files to sorted_files_sorted_alphabetically.txt, and finally display the contents of the final sorted file.
+
+let us proceed by using the following steps below1:
+
+**Step 1:** Open your terminal and create a file called sorting.sh using the command *sorting.sh*
+
+**Step 2:** Copy and paste the code block into the file
+
+#!/bin/bash
+
+# Create three files
+echo "Creating files..."
+echo "This is file3." > file3.txt
+echo "This is file1." > file1.txt
+echo "This is file2." > file2.txt
+echo "Files created."
+
+# Display the files in their current order
+echo "Files in their current order:"
+ls
+
+# Sort the files alphabetically
+echo "Sorting files alphabetically..."
+ls | sort > sorted_files.txt
+echo "Files sorted."
+
+# Display the sorted files
+echo "Sorted files:"
+cat sorted_files.txt
+
+# Remove the original files
+echo "Removing original files..."
+rm file1.txt file2.txt file3.txt
+echo "Original files removed."
+
+# Rename the sorted file to a more descriptive name
+echo "Renaming sorted file..."
+mv sorted_files.txt sorted_files_sorted_alphabetically.txt
+echo "File renamed."
+
+# Display the final sorted file
+echo "Final sorted file:"
+cat sorted_files_sorted_alphabetically.txt
+
+
+
+
 
 
 
