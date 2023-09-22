@@ -1,4 +1,4 @@
-## ProjectShellScripting
+# ProjectShellScripting
 
 **Introduction to Shell Scripting in Linux**
 
@@ -67,7 +67,7 @@ Also, the *#!/bin/bash* helps you specify the type of bash interpreter to be use
 
 ![exec script](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/5a2e0675-8207-44c3-bb2c-69374f0947b6)
 
-**Directory Manipulation and Navigation**
+**#Directory Manipulation and Navigation**
 
 Directory manipulation and navigation are essential aspects of shell scripting on Linux. 
 
