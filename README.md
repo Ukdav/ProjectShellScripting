@@ -3,7 +3,7 @@
 **Introduction to Shell Scripting in Linux**
 
 Shell scripting is a powerful and fundamental aspect of Linux and Unix-like operating systems. 
-It allows users and administrators to automate tasks, execute commands, and create customized solutions by writing scripts using shell programming languages like Bash, sh, and others.
+It allows users and administrators to automate tasks, execute commands, and create customized solutions by writing scripts using shell programming languages like Bash, sh, etc.
 
 At its core, a shell script is a text file containing a series of commands that can be executed in sequence. 
 These scripts leverage the capabilities of the system's command-line interface, the shell, to perform a wide range of tasks, from simple file manipulation and text processing to complex system administration tasks.
@@ -30,6 +30,22 @@ These scripts leverage the capabilities of the system's command-line interface, 
 In this realm of shell scripting, you can start with simple scripts and gradually build your skills to create more complex and sophisticated solutions. Whether you're a system administrator looking to automate routine tasks, a developer seeking to streamline your workflow, or just someone interested in learning more about Linux, shell scripting is a valuable skill to acquire. 
 
 It empowers you to harness the full potential of the command line and make your Linux experience more efficient and productive.
+
+**Let's write our first shell scripting:**
+
+**Step 1:** On our terminal, open a folder called shell-scripting using the command *mkdir shell-scripting*. This will hold all the scripting we would write in this lesson.
+**Step 2:** Create a file called user-input.sh using the command *touch user-input.sh*
+**Step 3:** Inside copy and paste the block of code below: 
+
+#!/bin/bash
+
+# Prompt the user for their name
+echo "Enter your name:"
+read name
+
+# Display a greeting with the entered name
+echo "Hello, $name! Nice to meet you."
+
 
 
 
