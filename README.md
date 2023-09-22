@@ -51,6 +51,24 @@ read name
 # Display a greeting with the entered name
 echo "Hello, $name! Nice to meet you."
 
+A little summary about the code block, the script will prompt for your name. when you input your name, it displays the text *hello! nice to meet you*
+
+Also, the *#!/bin/bash* helps you specify the type of bash interpreter to be used to execute the script.
+
+**Step 4:** Save your file
+
+**Step 5:** Run the command *sudo chmod +x user-input.sh*
+
+**Step 6:** Run the script using the command *./user-input.sh*
+
+![first project](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/f5b0cb53-884f-4b3e-b13d-42007cf8a933)
+
+![nano bash](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/71a2d5db-1732-43e9-acdd-94dc8af9c8fe)
+
+![exec script](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/5a2e0675-8207-44c3-bb2c-69374f0947b6)
+
+
+
 
 
 
