@@ -75,6 +75,56 @@ Shell scripts often need to interact with the file system, including creating, m
 
 Understanding how to perform these operations allows you to automate file management tasks efficiently. Here are some key points on directory manipulation and navigation in shell scripting:
 
+**Step 1:** Open a file name name *navigating_linux_filesystem.sh*
+
+**Step 2:** Place code block into the file using nano command
+sample code:
+
+#!/bin/bash
+
+# Display current directory
+echo "Current directory: $PWD"
+
+# Create a new directory
+echo "Creating a new directory..."
+mkdir my_directory
+echo "New directory created."
+
+# Change to the new directory
+echo "Changing to the new directory..."
+cd my_directory
+echo "Current directory: $PWD"
+
+# Create some files
+echo "Creating files..."
+touch file1.txt
+touch file2.txt
+echo "Files created."
+
+# List the files in the current directory
+echo "Files in the current directory:"
+ls
+
+# Move one level up
+echo "Moving one level up..."
+cd ..
+echo "Current directory: $PWD"
+
+# Remove the new directory and its contents
+echo "Removing the new directory..."
+rm -rf my_directory
+echo "Directory removed."
+
+# List the files in the current directory again
+echo "Files in the current directory:"
+ls
+
+![navigate file](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/eaaf1e1b-1471-4896-8e59-60951721b858)
+
+![nano02](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/95578cc2-5c95-481d-9c91-5701ff76a8c0)
+
+
+
 
 
 
