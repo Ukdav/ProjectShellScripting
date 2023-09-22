@@ -171,6 +171,12 @@ echo "File renamed."
 echo "Final sorted file:"
 cat sorted_files_sorted_alphabetically.txt
 
+![sorting](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/24c1defa-facb-4f51-8bae-ca010b49c173)
+
+![nano 3](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/60b7565c-0516-480b-b1c6-9954a2cc278e)
+
+
+
 
 
 
