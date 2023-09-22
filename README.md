@@ -67,6 +67,14 @@ Also, the *#!/bin/bash* helps you specify the type of bash interpreter to be use
 
 ![exec script](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/5a2e0675-8207-44c3-bb2c-69374f0947b6)
 
+**Directory Manipulation and Navigation**
+
+Directory manipulation and navigation are essential aspects of shell scripting on Linux. 
+
+Shell scripts often need to interact with the file system, including creating, moving, deleting, and navigating directories. 
+
+Understanding how to perform these operations allows you to automate file management tasks efficiently. Here are some key points on directory manipulation and navigation in shell scripting:
+
 
 
 
