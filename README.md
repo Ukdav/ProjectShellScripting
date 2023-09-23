@@ -272,7 +272,7 @@ echo "Backup completed. Files copied to: $backup_dir_with_timestamp"
 
 # In Conclusion: Harnessing the Power of Shell Scripting
 
-Shell scripting is a dynamic and indispensable tool in the realm of Linux and Unix-like operating systems. It empowers users, administrators, and developers to automate tasks, manipulate data, and efficiently manage their systems. As we conclude our exploration of shell scripting
+Shell scripting is a dynamic and indispensable tool in the realm of Linux and Unix-like operating systems. It empowers users, administrators, and developers to automate tasks, manipulate data, and efficiently manage their systems. As we conclude our exploration of shell scripting.
 
 
 
