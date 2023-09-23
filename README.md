@@ -175,6 +175,28 @@ cat sorted_files_sorted_alphabetically.txt
 
 ![nano 3](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/60b7565c-0516-480b-b1c6-9954a2cc278e)
 
+# Working with Numbers and Calculations
+
+**Working with Numbers and Calculations in Shell Scripting**
+
+Shell scripting on Linux allows you to perform various numerical calculations, manipulate numeric data, and automate mathematical operations. Here's a guide on working with numbers and calculations in shell scripting:
+
+This script defines two variables num1 and num2 with numeric values, performs basic arithmetic operations (addition, subtraction, multiplication, division, and modulus), and displays the results. it also performs more complex calculations such as raising num1 to the power of 2 and calculating the square root of num2 and displaying those results as well.
+
+Let's proceed by following the steps below:
+
+**Step 1:** On our terminal create a file and call it calculation.sh using the command *touch calculation.sh*
+
+**Step 2:** Copy and paste the code block on the nano page.
+
+![executed files](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/16ae0556-688b-4bfb-a8c3-779742f2074a)
+
+![nano4](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/c88dd655-c937-47ad-9217-3b3a065101d9)
+
+
+
+
+
 
 
 
