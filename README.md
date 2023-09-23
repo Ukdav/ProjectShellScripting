@@ -189,9 +189,47 @@ Let's proceed by following the steps below:
 
 **Step 2:** Copy and paste the code block on the nano page.
 
+#!/bin/bash
+
+# Define two variables with numeric values
+num1=10
+num2=5
+
+# Perform basic arithmetic operations
+sum=$((num1 + num2))
+difference=$((num1 - num2))
+product=$((num1 * num2))
+quotient=$((num1 / num2))
+remainder=$((num1 % num2))
+
+# Display the results
+echo "Number 1: $num1"
+echo "Number 2: $num2"
+echo "Sum: $sum"
+echo "Difference: $difference"
+echo "Product: $product"
+echo "Quotient: $quotient"
+echo "Remainder: $remainder"
+
+# Perform some more complex calculations
+power_of_2=$((num1 ** 2))
+square_root=$(awk "BEGIN{ sqrt=$num2; print sqrt }")
+
+# Display the results
+echo "Number 1 raised to the power of 2: $power_of_2"
+echo "Square root of number 2: $square_root"
+
+**Step 3:** Set execute permission on calculations.sh using the command *sudo chmod +x calculations.sh*
+
+**Step 4:** Run your script using this command *./calculations.sh*
+
 ![executed files](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/16ae0556-688b-4bfb-a8c3-779742f2074a)
 
 ![nano4](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/c88dd655-c937-47ad-9217-3b3a065101d9)
+
+
+
+
 
 
 
