@@ -227,6 +227,55 @@ echo "Square root of number 2: $square_root"
 
 ![nano4](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/c88dd655-c937-47ad-9217-3b3a065101d9)
 
+# File Backing Up and Timestamping in Shell Scripting
+
+File backup and timestamping are essential aspects of data management and version control. Shell scripting on Linux provides the flexibility to automate these tasks efficiently. Here's a guide on how to create shell scripts for file backup and timestamping:
+
+This shell scripting example is focused on file backup and timestamp. As a DevOps Engineer backing up databases and other storage devices is one of the most common tasks you get to carry out.
+
+This script defines the source directory and backup directory paths. it then creates a timestamp using the current date and time and creates a backup directory with the timestamp appended to its name. the script copies all files from the source directory to create the backup directory using the cp command with the  -r option for recursive copying. Finally, it displays a message indicating the completion of the backup process and shows the path of the backup directory with the timestamp.
+
+Lets proceed using the steps below:
+
+**Step 1:** On your terminal open a file backup.sh using the command *touch backup.sh*
+
+**Step 2:** Copy and paste the code block below into the nano page.
+
+#!/bin/bash
+
+#Define the source directory and backup directory
+source_dir="/path/to/source_directory"
+backup_dir="/path/to/backup_directory"
+
+#Create a timestamp with the current date and time
+timestamp=$(date +"%Y%m%d%H%M%S")
+
+#Create a backup directory with the timestamp
+backup_dir_with_timestamp="$backup_dir/backup_$timestamp"
+
+#Create the backup directory
+mkdir -p "$backup_dir_with_timestamp"
+
+#Copy all files from the source directory to the backup directory
+cp -r "$source_dir"/* "$backup_dir_with_timestamp"
+
+#Display a message indicating the backup process is complete
+echo "Backup completed. Files copied to: $backup_dir_with_timestamp"
+
+**Step 3:** Set execute permission on backup.sh using the command *sudo chmod +x backup.sh*
+
+**Step 4:** Run your script using this command *./backup.sh*
+
+![backup](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/c7c3c888-16a1-43da-a3ea-ac981f3d4ffb)
+
+![nano5](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/dc30a327-d22e-4959-aab7-eb35dbfffded)
+
+# In Conclusion: Harnessing the Power of Shell Scripting
+
+Shell scripting is a dynamic and indispensable tool in the realm of Linux and Unix-like operating systems. It empowers users, administrators, and developers to automate tasks, manipulate data, and efficiently manage their systems. As we conclude our exploration of shell scripting
+
+
+
 
 
 
