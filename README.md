@@ -187,7 +187,7 @@ Let's proceed by following the steps below:
 
 **Step 1:** On our terminal create a file and call it calculation.sh using the command *touch calculation.sh*
 
-**Step 2:** Copy and paste the code block on the nano page.
+**Step 2:** Copy and paste the code block on the vim page.
 
 #!/bin/bash
 
@@ -213,12 +213,11 @@ echo "Remainder: $remainder"
 
 #Perform some more complex calculations
 power_of_2=$((num1 ** 2))
-square_root=$(awk "BEGIN { printf \"%.2f\", sqrt($num2) }")
+square_root=$(echo "$num2" | awk '{print sqrt($1)}')
 
 #Display the results
 echo "Number 1 raised to the power of 2: $power_of_2"
 echo "Square root of number 2: $square_root"
-
 
 **Step 3:** Set execute permission on calculations.sh using the command *sudo chmod +x calculations.sh*
 
@@ -241,18 +240,18 @@ Let's proceed using the steps below:
 
 **Step 1:** On your terminal open a file backup.sh using the command *touch backup.sh*
 
-**Step 2:** Copy and paste the code block below into the nano page.
+**Step 2:** Copy and paste the code block below into the vim page.
 
 #!/bin/bash
 
 #Define the source directory and backup directory
-source_dir="/path/to/source_directory"
-backup_dir="/path/to/backup_directory"
+source_dir="/home/ubuntu/testing"
+backup_dir="/home/ubuntu"
 
 #Create a timestamp with the current date and time
 timestamp=$(date +"%Y%m%d%H%M%S")
 
-#Create a backup directory with the timestamp
+# Create a backup directory with the timestamp
 backup_dir_with_timestamp="$backup_dir/backup_$timestamp"
 
 #Create the backup directory
@@ -263,6 +262,7 @@ cp -r "$source_dir"/* "$backup_dir_with_timestamp"
 
 #Display a message indicating the backup process is complete
 echo "Backup completed. Files copied to: $backup_dir_with_timestamp"
+
 
 **Step 3:** Set execute permission on backup.sh using the command *sudo chmod +x backup.sh*
 
