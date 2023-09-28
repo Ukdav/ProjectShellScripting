@@ -268,9 +268,10 @@ echo "Backup completed. Files copied to: $backup_dir_with_timestamp"
 
 **Step 4:** Run your script using this command *./backup.sh*
 
-![backup](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/c7c3c888-16a1-43da-a3ea-ac981f3d4ffb)
+![backup](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/188438d8-c627-446d-9c6f-5b7657cae238)
 
-![nano5](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/dc30a327-d22e-4959-aab7-eb35dbfffded)
+![vim script editor page for calculation](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/b365cd81-5a4d-4f33-bc66-45b8b1c8cd97)
+
 
 # In Conclusion: Harnessing the Power of Shell Scripting
 
