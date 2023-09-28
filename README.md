@@ -191,18 +191,18 @@ Let's proceed by following the steps below:
 
 #!/bin/bash
 
-#Define two variables with numeric values
+# Define two variables with numeric values
 num1=10
 num2=5
 
-#Perform basic arithmetic operations
+# Perform basic arithmetic operations
 sum=$((num1 + num2))
 difference=$((num1 - num2))
 product=$((num1 * num2))
 quotient=$((num1 / num2))
 remainder=$((num1 % num2))
 
-#Display the results
+# Display the results
 echo "Number 1: $num1"
 echo "Number 2: $num2"
 echo "Sum: $sum"
@@ -211,21 +211,23 @@ echo "Product: $product"
 echo "Quotient: $quotient"
 echo "Remainder: $remainder"
 
-#Perform some more complex calculations
+# Perform some more complex calculations
 power_of_2=$((num1 ** 2))
-square_root=$(awk "BEGIN{ sqrt=$num2; print sqrt }")
+square_root=$(awk "BEGIN { printf \"%.2f\", sqrt($num2) }")
 
-#Display the results
+# Display the results
 echo "Number 1 raised to the power of 2: $power_of_2"
 echo "Square root of number 2: $square_root"
+
 
 **Step 3:** Set execute permission on calculations.sh using the command *sudo chmod +x calculations.sh*
 
 **Step 4:** Run your script using this command *./calculations.sh*
 
-![executed files](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/16ae0556-688b-4bfb-a8c3-779742f2074a)
+![vim script editor page for calculation](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/79ba7870-37e4-4440-862e-2609fc1614ce)
 
-![nano4](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/c88dd655-c937-47ad-9217-3b3a065101d9)
+![script output for calculation](https://github.com/Ukdav/ProjectShellScripting/assets/139593350/3a84c34f-1b3d-477d-84ea-6c2b2a97d7c6)
+
 
 # File Backing Up and Timestamping in Shell Scripting
 
@@ -233,9 +235,9 @@ File backup and timestamping are essential aspects of data management and versio
 
 This shell scripting example is focused on file backup and timestamp. As a DevOps Engineer backing up databases and other storage devices is one of the most common tasks you get to carry out.
 
-This script defines the source directory and backup directory paths. it then creates a timestamp using the current date and time and creates a backup directory with the timestamp appended to its name. the script copies all files from the source directory to create the backup directory using the cp command with the  -r option for recursive copying. Finally, it displays a message indicating the completion of the backup process and shows the path of the backup directory with the timestamp.
+This script defines the source directory and backup directory paths. it then creates a timestamp using the current date and time and a backup directory with the timestamp appended to its name. the script copies all files from the source directory to create the backup directory using the cp command with the  -r option for recursive copying. Finally, it displays a message indicating the completion of the backup process and shows the path of the backup directory with the timestamp.
 
-Lets proceed using the steps below:
+Let's proceed using the steps below:
 
 **Step 1:** On your terminal open a file backup.sh using the command *touch backup.sh*
 
